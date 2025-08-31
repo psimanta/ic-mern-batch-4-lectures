@@ -12,21 +12,21 @@
 // console.log("End of program!");
 
 // **** Example 2
-// console.log("First");
+console.log("First");
 
-// setTimeout(() => {
-//   console.log("First timeout!");
+setTimeout(() => {
+  console.log("First timeout!");
 
-//   setTimeout(() => {
-//     console.log("Nested timeout!");
-//   }, 0);
-// }, 0);
+  setTimeout(() => {
+    console.log("Nested timeout!");
+  }, 0);
+}, 0);
 
-// setTimeout(() => {
-//   console.log("Second timeout!");
-// });
+setTimeout(() => {
+  console.log("Second timeout!");
+});
 
-// console.log("Last!");
+console.log("Last!");
 
 // Callback QUEUE (FIFO):
 
